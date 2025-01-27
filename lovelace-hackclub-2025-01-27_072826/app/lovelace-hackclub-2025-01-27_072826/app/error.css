@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body {
+  margin: 0;
+  overflow: hidden;
+ width:100vw;
+  height: 100vh;
+    background:#c4d0d5;
+  
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 100vh;
+    background:#c4d0d5;
+}
+
+.falling-letter {
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+   font-family: 'Patrick Hand', cursive;
+}
+.space
+{
+  width:30px;
+ 
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym550.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+@media (max-width: 768px) {
+  
+  .falling-letter {
+  font-size: 18px;
+    margin: 0 2px;
+  }
+}
